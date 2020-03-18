@@ -1,0 +1,13 @@
+{
+  "id": "R1Module1",
+  "config": {
+    "btnText": "Select",
+    "bgImageURL": "https://www.khaadi.com/media/countrydd_kh.jpg"
+  },
+  "data": {
+    "actionResponse": {
+      "text": "Sample Action Response"
+    }
+  },
+  "typeName": "marib-first-module"
+}

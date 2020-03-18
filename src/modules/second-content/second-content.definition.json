@@ -1,0 +1,74 @@
+{
+    "$type": "contentModule",
+    "friendlyName": "second-content",
+    "name": "second-content",
+    "description": "Please add meaningful description for authoring",
+    "categories": [
+        "second-content"
+    ],
+    "tags": [
+        "Additional tags go here"
+    ],
+    "dataActions": {
+        "customDAResponse": {
+            "path": "../../actions/second-get-product-reviews",
+            "runOn": "server"
+        },
+        "products": {
+            "path": "@msdyn365-commerce-modules/retail-actions/dist/lib/get-simple-products",
+            "runOn": "server"
+        }
+    },
+    "config": {
+        "productIds": {
+            "friendlyName": "Product Ids",
+            "description": "Product Ids for data actions content",
+            "type": "string"
+        },
+        "showText": {
+            "friendlyName": "showText",
+            "description": "example config value",
+            "type": "string",
+            "default": "Example Config Value",
+            "scope": "module",
+            "group": "Layout Properties"
+        },
+        "bgColor": {
+            "friendlyName": "backGroundColor",
+            "description": "Background color of container",
+            "type": "string",
+            "default": "Example Config Value",
+            "scope": "module",
+            "group": "Layout Properties",
+            "required": true
+        },
+        "imgSrc": {
+            "friendlyName": "imageSource",
+            "description": "Source url of image",
+            "type": "string",
+            "default": "Example Config Value",
+            "scope": "module",
+            "group": "Layout Properties",
+            "required": true
+        },
+        "imgAlignment": {
+            "friendlyName": "imgAlignment",
+            "description": "Alignment of image",
+            "type": "string",
+            "enum": {
+                "left": "Left",
+                "right": "Right"
+            },
+            "default": "Example Config Value",
+            "scope": "module",
+            "group": "Layout Properties",
+            "required": true
+        }
+    },
+    "resources": {
+        "resourceKey": {
+            "comment": "resource description",
+            "value": "resource value"
+        }
+    }
+}

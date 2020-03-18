@@ -1,0 +1,67 @@
+{
+    "exception": null,
+    "pageRoot": {
+        "id": "core-root_0",
+        "typeName": "core-root",
+        "modules": {
+            "body": [
+                {
+                    "id": "default-page_0",
+                    "typeName": "default-page",
+                    "modules": {
+                        "primary": [
+                            {
+                                "id": "primaryArea__0",
+                                "typeName": "marib-first-container",
+                                "modules": {
+                                    "slot1": [
+                                        {
+                                            "id": "ProductFeature__0",
+                                            "typeName": "marib-first-content",
+                                            "config": {
+                                                "showText": "A"
+                                            }
+                                        }
+                                    ],
+                                    "slot2": [
+                                        {
+                                            "id": "ProductFeature__1",
+                                            "typeName": "marib-first-content",
+                                            "config": {
+                                                "showText": "B"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "renderingContext": {
+        "gridSettings": {
+            "xs": {
+                "w": 767
+            },
+            "sm": {
+                "w": 991
+            },
+            "md": {
+                "w": 1199
+            },
+            "lg": {
+                "w": 1599
+            },
+            "xl": {
+                "w": 1600
+            }
+        },
+        "staticContext": {
+            "staticCdnUrl": "/_scnr/"
+        },
+        "locale": "en-us"
+    },
+    "statusCode": 200
+}

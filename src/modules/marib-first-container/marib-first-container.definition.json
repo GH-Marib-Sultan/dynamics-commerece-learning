@@ -1,0 +1,46 @@
+{
+    "$type": "containerModule",
+    "friendlyName": "marib-first-container",
+    "name": "marib-first-container",
+    "description": "Please add meaningful description for authoring",
+    "categories": ["marib-first-container"],
+    "tags": ["Additional tags go here"],
+    "dataActions": {        
+    },    
+    "config": {
+        "showText": {
+            "friendlyName": "showText",
+            "description": "example config value",
+            "type": "string",
+            "default": "Example Config Value",
+            "scope": "module",
+            "group": "Layout Properties"
+        }
+    },
+    "slots": {
+        "slot1": {
+            "friendlyName": "Content Slot 1",
+            "description": "Content to be rendered in container. Max 1",
+            "allowedTypes": [
+                "marib-first-content"
+            ],
+            "max": 1,
+            "min": 0
+        },
+        "slot2": {
+            "friendlyName": "Content Slot 2",
+            "description": "Content to be rendered in container. Max 1",
+            "allowedTypes": [
+                "marib-first-content"
+            ],
+            "max": 1,
+            "min": 0
+        }
+    },
+    "resources": {
+        "resourceKey": {
+            "comment": "resource description",
+            "value": "resource value"
+        }
+    }
+}

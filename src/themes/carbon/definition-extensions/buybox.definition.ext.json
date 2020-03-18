@@ -1,0 +1,22 @@
+{
+    "$type": "definitionExtension",
+    "slots": {
+        "content": {
+            "friendlyName": "content slot",
+            "description": "This is the content slot",
+            "max": 100,
+            "min": 0,
+            "allowedTypes": "*"
+        }
+    },
+    "resources": {
+        "decrementButtonAriaLabel": {
+            "value": "Decrease Product Quantity",
+            "comment": "Aria label to decrease count of quantity"
+        },
+        "incrementButtonAriaLabel": {
+            "value": "Increment Product Quantity",
+            "comment": "Aria label to increase count of quantity"
+        }
+    }
+}

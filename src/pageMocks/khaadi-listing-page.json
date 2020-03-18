@@ -1,0 +1,59 @@
+{
+    "exception": null,
+    "pageRoot": {
+        "id": "core-root_0",
+        "typeName": "core-root",
+        "modules": {
+            "body": [
+                {
+                    "id": "default-page_0",
+                    "typeName": "default-page",
+                    "modules": {
+                        "primary": [
+                            {
+                                "id": "primaryArea__0",
+                                "typeName": "khaadi-listing-container",
+                                "modules": {
+                                    "slot1": [
+                                        {
+                                            "id": "ProductFeature__0",
+                                            "typeName": "khaadi-listing-content",
+                                            "config": {
+                                                "showText": "Lala"
+                                            }
+                                        }
+                                    ],
+                                    "slot2": [
+                                        {
+                                            "id": "ProductFeature__1",
+                                            "typeName": "khaadi-listing-content",
+                                            "config": {
+                                                "showText": "Lala"
+                                            }
+                                        }
+                                    ],
+                                    "slot3": [
+                                        {
+                                            "id": "ProductFeature__2",
+                                            "typeName": "khaadi-listing-content",
+                                            "config": {
+                                                "showText": "Lala"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "renderingContext": {
+        "staticContext": {
+            "staticCdnUrl": "/_scnr/"
+        },
+        "locale": "en-us"
+    },
+    "statusCode": 200
+}

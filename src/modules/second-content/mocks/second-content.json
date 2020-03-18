@@ -1,0 +1,16 @@
+{
+  "id": "R1Module1",
+  "config": {
+    "productIds": "68719498121",
+    "showText": "Example Config Value",
+    "bgColor": "red",
+    "imgAlignment": "right",
+    "imgSrc": "https://www.khaadi.com/media/countrydd_kh.jpg"
+  },
+  "data": {
+    "actionResponse": {
+      "text": "Sample Action Response"
+    }
+  },
+  "typeName": "second-content"
+}

@@ -1,0 +1,49 @@
+{
+    "$type": "contentModule",
+    "friendlyName": "marib-first-module",
+    "name": "marib-first-module",
+    "description": "Please add meaningful description for authoring",
+    "categories": [
+        "marib-first-module"
+    ],
+    "tags": [
+        "Additional tags go here"
+    ],
+    "dataActions": {},
+    "config": {
+        "btnText": {
+            "friendlyName": "buttonText",
+            "description": "Text for a button goes here",
+            "type": "string",
+            "default": "Select",
+            "scope": "module",
+            "group": "Layout Properties"
+        },
+        "bgImageURL": {
+            "friendlyName": "backgroundImageURL",
+            "description": "URL for background image goes here",
+            "type": "string",
+            "required": true
+        },
+        "myCustomCSS": {
+            "default": "hero",
+            "editable": false,
+            "friendlyName": "Readonly CSS Class Name(s)",
+            "description": "Provides a way to set constant, unchangeable default css class(es) to apply to your module.",
+            "type": "css"
+        },
+        "__cssClassName__": {
+            "default": "myDefaultCSS",
+            "editable": false,
+            "friendlyName": "Readonly CSS Class Name(s)",
+            "description": "Provides a way to set constant, unchangeable default css class(es) to apply to your module.",
+            "type": "string"
+        }
+    },
+    "resources": {
+        "resourceKey": {
+            "comment": "resource description",
+            "value": "resource value"
+        }
+    }
+}
