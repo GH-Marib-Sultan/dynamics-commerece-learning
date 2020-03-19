@@ -47,6 +47,7 @@ const headerView: React.FC<IHeaderViewProps> = props => {
                 <li><a href={ourStoreUrl}>Our Stores</a></li>
                 {/*<li><a href={faqUrl}>FAQ's</a></li>*/}
                 <li><a href={contactUrl}>Contact</a></li>
+                <li><a href={contactUrl}>This is my view extension</a></li>
               </ul>
             </div>
             <div className='col-lg-5 col-md-6'>
